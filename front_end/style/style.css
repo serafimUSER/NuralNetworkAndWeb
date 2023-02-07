@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    background-color: #FFFBF5;
+}
+/* Index page */
+.divide{
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+}
+
+.divide .form{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #F7EFE5;
+    border-radius: 20px;
+}
+.divide .form h1{
+    color: #150e1c;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.divide .form .start_test{
+    padding-top: 10px;
+    margin-left: 50px;
+    width: 80%;
+    font-size: 19px;
+    color: #150e1c;
+}
+.divide .form .list{
+    width: 70%;
+    margin: 40px auto;
+}
+.divide .form .list li{
+    font-size: 18.6px;
+    margin-bottom: 15px;
+    color: #150e1c;
+}
+
+
+.divide .btns{
+    width: 100%;
+    height: 100px;
+    background: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.btns a button{
+    background-color: #C3ACD0;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: .2s;
+}
+.btns a button:hover{
+    background-color: #9266ad;
+}
+.footer{
+    color: #150e1c;
+    width: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 30px;
+    font-size: 18px;
+}
+.footer span{
+    font-weight: bold;
+}
+
+
+
+/* Test */
+.label1{
+    padding-top: 20px;
+    width: 600px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label1 .row0{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 48%;
+}
+.label1 .row0 p{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+    font-size: 19px;
+    padding-bottom: 5px;
+    background-color: #F7EFE5;
+    transition: .2s;
+}
+.label1 .row0 .input{
+    position: absolute;
+    outline: none;
+    border: 2px solid #674188;
+    border-radius: 10px;
+    background: none;
+    width: 100%;
+    height: 50px;
+}
+.label1 .row0 .input input{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 15px;
+    font-size: 17px;
+    background: none;
+    width: 90%;
+    height: 80%;
+    border: none;
+    outline: none;
+}
+.next{
+    background-color: #674188;
+}
+
+.label2{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 600px;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.label2 .input{
+    position: absolute;
+    outline: none;
+    border: 2px solid #674188;
+    border-radius: 10px;
+    background: none;
+    width: 100%;
+    height: 50px;
+}
+.label2 .input input{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 15px;
+    font-size: 17px;
+    background: none;
+    width: 90%;
+    height: 80%;
+    border: none;
+    outline: none;
+}
+.label2 p{
+    position: absolute;
+    top: 57%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+    font-size: 19px;
+    padding-bottom: 5px;
+    background-color: #F7EFE5;
+    transition: .2s;
+}
+.input option{
+    font-size: 18px;
+    padding-left: 15px;
+}
+#select_inp01{
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.btns1{
+    width: 100%;
+    height: 100px;
+    background: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.btns1 a button{
+    background-color: #7f6298;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: .2s;
+}
+.btns1 a button:hover{
+    background-color: #674188;
+}

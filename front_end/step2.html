@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Тест</title>
+</head>
+<body>
+    <div class="divide">
+        <form action="" class="form">
+            <h1>Введите информацию</h1>
+            <div class="label2">
+                <select class="input" id="select_inp01" autocomplete="off">
+                    <option>Есть ли у вас гипертония?</option>
+                    <option>Да</option>
+                    <option>Нет</option>
+                </select>
+            </div>
+            <div class="label2">
+                <select class="input" id="select_inp01">
+                    <option>Были ли вы когда нибудь женаты/замужем?</option>
+                    <option>Да</option>
+                    <option>нет</option>
+                </select>
+            </div>
+            <div class="label2">
+                <p id="lab2_0">Введите средний уровень глюкозы в крови? (мг/дл)</p>
+                <div class="input">
+                    <input id="inp2_0" autocomplete="off" type="text">
+                </div>
+            </div>
+        </form>
+        <div class="btns1">
+            <a href="#">
+                <button>Результат</button>
+            </a>
+        </div>
+    </div>
+    <script>
+        document.getElementById('inp2_0').onblur = function() {
+            if (document.getElementById('inp2_0').value == "") {
+                document.getElementById('lab2_0').style.top = "57%";
+                document.getElementById('lab2_0').style.transform = "translateY(-50%)"
+                document.getElementById('lab2_0').style.fontSize = "19px"
+            }
+        }
+        
+        document.getElementById('inp2_0').onfocus = function() {
+            document.getElementById('lab2_0').style.top = "44%";
+            document.getElementById('lab2_0').style.transform = "translateY(-60%)"
+            document.getElementById('lab2_0').style.fontSize = "14px"
+        }
+    </script>
+</body>
+</html>
